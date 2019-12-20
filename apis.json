@@ -1,0 +1,78 @@
+{
+    "name": "Vinli",
+    "description": "<p>Vinli - The easiest, most advanced connected-car system in the world. Vinli is a platform for easily and quickly building connected car apps. Apps get vehicle data through Vinli services.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28875-www-vin-li.jpg",
+    "tags": [
+        "automobiles",
+        "have api",
+        "relative data",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/vinli\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Vinli",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28875-www-vin-li.jpg",
+            "humanURL": "http:\/\/vinli.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/vinli-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/vinli.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog RSS",
+            "url": "https:\/\/blog.vin.li\/rss\/"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/vinli"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/vinli.com"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/blog.vin.li\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/vinli"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/dev.vin.li\/#\/home"
+        },
+        {
+            "type": "Email",
+            "url": "customerservice@vin.li"
+        },
+        {
+            "type": "Email",
+            "url": "support@vin.li"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/vinli"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.vin.li"
+        }
+    ]
+}
