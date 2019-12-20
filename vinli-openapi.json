@@ -1,0 +1,1036 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Vinli",
+        "description": "TODO: Add Description",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsevents.vin.li\/api\/v1"
+    ],
+    "paths": {
+        "\/devices\/62976d30-b6dc-40f1-8422-ccc367572101\/events": {
+            "get": {
+                "summary": "Get All Events for a Device",
+                "description": "Get all events for a device.",
+                "operationId": "Devices62976d30B6dc40f18422Ccc367572101EventsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices\/cf217c2d-df3c-41f7-b610-8bc3e11b4b79\/vehicles": {
+            "get": {
+                "summary": "List a Device's Vehicles",
+                "description": "List a device's vehicles.",
+                "operationId": "DevicesCf217c2dDf3c41f7B6108bc3e11b4b79VehiclesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/rules\/b7ad3604-c795-46af-9d5f-71be30ed4143": {
+            "get": {
+                "summary": "Get a Specific Rule",
+                "description": "Get a specific rule.",
+                "operationId": "RulesB7ad3604C79546af9d5f71be30ed4143Get",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices\/7eac0d62-854f-41c1-a5b2-ba13c460058a\/collisions": {
+            "get": {
+                "summary": "Get a List of Collisions for a Device",
+                "description": "Get a list of collisions for a device.",
+                "operationId": "Devices7eac0d62854f41c1A5b2Ba13c460058aCollisionsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/odometer_triggers\/ce8f9a53-906a-4d39-b06a-d466d29a13f1": {
+            "get": {
+                "summary": "Get an Odometer Trigger",
+                "description": "Get an odometer trigger.",
+                "operationId": "OdometerTriggersCe8f9a53906a4d39B06aD466d29a13f1Get",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete an Odometer Trigger",
+                "description": "Delete an odometer trigger.",
+                "operationId": "OdometerTriggersCe8f9a53906a4d39B06aD466d29a13f1Delete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/events\/1caa8fff-c9be-4506-bcb8-38371c25aa14": {
+            "get": {
+                "summary": "Get a Specific Event",
+                "description": "Get a specific event.",
+                "operationId": "Events1caa8fffC9be4506Bcb838371c25aa14Get",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/vehicles\/9aa35c64-b046-43cc-9cd8-4c353a6d0b30\/odometer_triggers": {
+            "get": {
+                "summary": "List all Odometer Triggers for a Vehicle",
+                "description": "List all odometer triggers for a vehicle.",
+                "operationId": "Vehicles9aa35c64B04643cc9cd84c353a6d0b30OdometerTriggersGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create an Odometer Trigger",
+                "description": "Create an odometer trigger.",
+                "operationId": "Vehicles9aa35c64B04643cc9cd84c353a6d0b30OdometerTriggersPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/vehicles\/aa44769b-3c0a-4662-9bad-25481cf5198f": {
+            "get": {
+                "summary": "Get Vehicle Details",
+                "description": "Get vehicle details.",
+                "operationId": "VehiclesAa44769b3c0a46629bad25481cf5198fGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices\/62976d30-b6dc-40f1-8422-ccc367572101\/snapshots": {
+            "get": {
+                "summary": "Telemetry Snapshots",
+                "description": "Telemetry snapshots.",
+                "operationId": "Devices62976d30B6dc40f18422Ccc367572101SnapshotsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices\/62976d30-b6dc-40f1-8422-ccc367572101\/subscriptions": {
+            "get": {
+                "summary": "Get all Subscriptions for a Device",
+                "description": "Get all subscriptions for a device.",
+                "operationId": "Devices62976d30B6dc40f18422Ccc367572101SubscriptionsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Update a Subscription",
+                "description": "Update a subscription.",
+                "operationId": "Devices62976d30B6dc40f18422Ccc367572101SubscriptionsPost2",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/vehicles\/9aa35c64-b046-43cc-9cd8-4c353a6d0b30\/trips": {
+            "get": {
+                "summary": "List All of a Vehicle's Trips",
+                "description": "List all of a vehicle's trips.",
+                "operationId": "Vehicles9aa35c64B04643cc9cd84c353a6d0b30TripsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices": {
+            "get": {
+                "summary": "List all devices",
+                "description": "List all devices.",
+                "operationId": "DevicesGet",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Register a Device",
+                "description": "Register a device.",
+                "operationId": "DevicesPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/vehicles\/428bc621-16e7-489b-a02a-eb98526d01ef\/collisions": {
+            "get": {
+                "summary": "Get a List of Collisions for a Vehicle",
+                "description": "Get a list of collisions for a vehicle.",
+                "operationId": "Vehicles428bc62116e7489bA02aEb98526d01efCollisionsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/collisions\/e43ff87d-bb58-42da-998e-d7f10a3f7a64": {
+            "get": {
+                "summary": "Get a specific Collision",
+                "description": "Get a specific collision.",
+                "operationId": "CollisionsE43ff87dBb5842da998eD7f10a3f7a64Get",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/codes": {
+            "get": {
+                "summary": "Get Info about a DTC",
+                "description": "Get info about a dtc.",
+                "operationId": "CodesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "number",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/trips\/report_card": {
+            "post": {
+                "summary": "Report Card  for a Trip",
+                "description": "Report card  for a trip.",
+                "operationId": "TripsReportCardPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices\/821374c0-d6d8-11e3-9c1a-0800200c9a66\/vehicles\/_latest": {
+            "get": {
+                "summary": "Get Device's Latest Vehicle",
+                "description": "Get device's latest vehicle.",
+                "operationId": "Devices821374c0D6d811e39c1a0800200c9a66VehiclesLatestGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/messages\/ade8e85c-a1aa-4373-8c6e-e37e87762f29": {
+            "get": {
+                "summary": "Get a Specific Telemety Message",
+                "description": "Get a specific telemety message.",
+                "operationId": "MessagesAde8e85cA1aa43738c6eE37e87762f29Get",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices\/62976d30-b6dc-40f1-8422-ccc367572101\/locations": {
+            "get": {
+                "summary": "Locations Request",
+                "description": "Locations request.",
+                "operationId": "Devices62976d30B6dc40f18422Ccc367572101LocationsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/vehicles\/8480c5b7-6f3e-40b3-a78e-3555617d44b0\/report_cards": {
+            "get": {
+                "summary": "Report Cards for a Vehicle",
+                "description": "Report cards for a vehicle.",
+                "operationId": "Vehicles8480c5b76f3e40b3A78e3555617d44b0ReportCardsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/dummies\/01e668ba-6967-4536-9f72-cc28ff18d7b6\/runs": {
+            "post": {
+                "summary": "Create a Dummy Run",
+                "description": "Create a dummy run.",
+                "operationId": "Dummies01e668ba696745369f72Cc28ff18d7b6RunsPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/dummies\/01e668ba-6967-4536-9f72-cc28ff18d7b6\/runs\/_current": {
+            "get": {
+                "summary": "Get Current Run",
+                "description": "Get current run.",
+                "operationId": "Dummies01e668ba696745369f72Cc28ff18d7b6RunsCurrentGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete a Run",
+                "description": "Delete a run.",
+                "operationId": "Dummies01e668ba696745369f72Cc28ff18d7b6RunsCurrentDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/vehicles\/9aa35c64-b046-43cc-9cd8-4c353a6d0b30\/odometers": {
+            "get": {
+                "summary": "List All Odometer Reports for a Vehicle",
+                "description": "List all odometer reports for a vehicle.",
+                "operationId": "Vehicles9aa35c64B04643cc9cd84c353a6d0b30OdometersGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create an Odometer Report",
+                "description": "Create an odometer report.",
+                "operationId": "Vehicles9aa35c64B04643cc9cd84c353a6d0b30OdometersPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/dummies": {
+            "get": {
+                "summary": "List Dummy Devices",
+                "description": "List dummy devices.",
+                "operationId": "DummiesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create a Dummy Device",
+                "description": "Create a dummy device.",
+                "operationId": "DummiesPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/routes": {
+            "get": {
+                "summary": "List Dummy Routes",
+                "description": "List dummy routes.",
+                "operationId": "RoutesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices\/cf217c2d-df3c-41f7-b610-8bc3e11b4b79": {
+            "get": {
+                "summary": "get a single device",
+                "description": "Get a single device.",
+                "operationId": "DevicesCf217c2dDf3c41f7B6108bc3e11b4b79Get",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/notifications\/E4A2E663-D23B-4398-8B91-B826D5477B8F": {
+            "get": {
+                "summary": "Get a Specific Notification",
+                "description": "Get a specific notification.",
+                "operationId": "NotificationsE4A2E663D23B43988B91B826D5477B8FGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/subscriptions\/4ffd7abb-6c04-45e9-a09a-a669abf4f885": {
+            "get": {
+                "summary": "Get a Specific Subscription",
+                "description": "Get a specific subscription.",
+                "operationId": "Subscriptions4ffd7abb6c0445e9A09aA669abf4f885Get",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/subscriptions\/78acd627-e2ea-4b34-9599-b94b2f10f2f9\/notifications": {
+            "get": {
+                "summary": "Get Notifications for a Subscription",
+                "description": "Get notifications for a subscription.",
+                "operationId": "Subscriptions78acd627E2ea4b349599B94b2f10f2f9NotificationsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/events\/d69cc8be-a809-441d-8a70-1bf0a0d48fb3\/notifications": {
+            "get": {
+                "summary": "Get Notifications for an Event",
+                "description": "Get notifications for an event.",
+                "operationId": "EventsD69cc8beA809441d8a701bf0a0d48fb3NotificationsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/trips\/89abe0bd-ea2e-44e5-b573-a8a346fdfb54": {
+            "get": {
+                "summary": "Get Details of a Trip",
+                "description": "Get details of a trip.",
+                "operationId": "Trips89abe0bdEa2e44e5B573A8a346fdfb54Get",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices\/7eac0d62-854f-41c1-a5b2-ba13c460058a\/report_cards\/overall": {
+            "get": {
+                "summary": "Lifetime Report Card for a Device",
+                "description": "Lifetime report card for a device.",
+                "operationId": "Devices7eac0d62854f41c1A5b2Ba13c460058aReportCardsOverallGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions": {
+            "get": {
+                "summary": "Get all transactions for this app",
+                "description": "Get all transactions for this app.",
+                "operationId": "TransactionsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices\/62976d30-b6dc-40f1-8422-ccc367572101\/rules": {
+            "post": {
+                "summary": "Create a Rule for a Device",
+                "description": "Create a rule for a device.",
+                "operationId": "Devices62976d30B6dc40f18422Ccc367572101RulesPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/odometers\/74b7562d-f002-4fc9-8d85-48ec9f917954": {
+            "get": {
+                "summary": "Get an Odometer",
+                "description": "Get an odometer.",
+                "operationId": "Odometers74b7562dF0024fc98d8548ec9f917954Get",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete an Odometer",
+                "description": "Delete an odometer.",
+                "operationId": "Odometers74b7562dF0024fc98d8548ec9f917954Delete",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/devices\/7eac0d62-854f-41c1-a5b2-ba13c460058a\/report_cards": {
+            "get": {
+                "summary": "Report Cards for a Device",
+                "description": "Report cards for a device.",
+                "operationId": "Devices7eac0d62854f41c1A5b2Ba13c460058aReportCardsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/vehicles\/9aa35c64-b046-43cc-9cd8-4c353a6d0b30\/distances": {
+            "get": {
+                "summary": "Get list of  a Vehicles Distances",
+                "description": "Get list of  a vehicles distances.",
+                "operationId": "Vehicles9aa35c64B04643cc9cd84c353a6d0b30DistancesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/rules\/68d489c0-d7a2-11e3-9c1a-0800200c9a66": {
+            "delete": {
+                "summary": "Delete a Rule",
+                "description": "Delete a rule.",
+                "operationId": "Rules68d489c0D7a211e39c1a0800200c9a66Delete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices\/cf217c2d-df3c-41f7-b610-8bc3e11b4b79\/messages": {
+            "get": {
+                "summary": "List Telemetry Messages",
+                "description": "List telemetry messages.",
+                "operationId": "DevicesCf217c2dDf3c41f7B6108bc3e11b4b79MessagesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices\/cf217c2d-df3c-41f7-b610-8bc3e11b4b79\/rules": {
+            "get": {
+                "summary": "List all Rules for a Device",
+                "description": "List all rules for a device.",
+                "operationId": "DevicesCf217c2dDf3c41f7B6108bc3e11b4b79RulesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/subscriptions\/5b6a6164-aa14-4e00-9f50-b5c61faeb167": {
+            "delete": {
+                "summary": "Delete a Subscription",
+                "description": "Delete a subscription.",
+                "operationId": "Subscriptions5b6a6164Aa144e009f50B5c61faeb167Delete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "ac",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices\/821374c0-d6d8-11e3-9c1a-0800200c9a66": {
+            "delete": {
+                "summary": "Deregister a Device",
+                "description": "Deregister a device.",
+                "operationId": "Devices821374c0D6d811e39c1a0800200c9a66Delete",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/vehicles\/9aa35c64-b046-43cc-9cd8-4c353a6d0b30\/codes": {
+            "get": {
+                "summary": "List all DTCs for a Device",
+                "description": "List all dtcs for a device.",
+                "operationId": "Vehicles9aa35c64B04643cc9cd84c353a6d0b30CodesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/report_cards\/549d628c-48dc-412d-8087-44a9f82f187e": {
+            "get": {
+                "summary": "Get a Specific Report Card",
+                "description": "Get a specific report card.",
+                "operationId": "ReportCards549d628c48dc412d808744a9f82f187eGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/devices\/cf217c2d-df3c-41f7-b610-8bc3e11b4b79\/trips": {
+            "get": {
+                "summary": "List All of a Device's Trips",
+                "description": "List all of a device's trips.",
+                "operationId": "DevicesCf217c2dDf3c41f7B6108bc3e11b4b79TripsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "CreateASubscriptionrequest": {
+                "type": "object"
+            },
+            "Subscription": {
+                "type": "object",
+                "properties": {
+                    "eventType": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateAnOdometerTriggerrequest": {
+                "type": "object"
+            },
+            "OdometerTrigger": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "threshold": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "unit": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "RegisterADevicerequest": {
+                "type": "object"
+            },
+            "Device": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "ReportCardForATriprequest": {
+                "type": "object",
+                "properties": {
+                    "tripId": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateASubscriptionrequest": {
+                "type": "object"
+            },
+            "CreateADummyRunrequest": {
+                "type": "object"
+            },
+            "Run": {
+                "type": "object",
+                "properties": {
+                    "vin": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "routeId": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "DeleteARunrequest": {
+                "type": "object"
+            },
+            "CreateAnOdometerReportrequest": {
+                "type": "object"
+            },
+            "Odometer": {
+                "type": "object",
+                "properties": {
+                    "reading": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "date": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "unit": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateADummyDevicerequest": {
+                "type": "object"
+            },
+            "Dummy": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateARuleForADevicerequest": {
+                "type": "object"
+            },
+            "Rule": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "boundaries": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Boundary": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "parameter": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "min": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "max": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "lon": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "lat": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "radius": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "DeleteASubscriptionrequest": {
+                "type": "object"
+            }
+        }
+    }
+}
