@@ -1,5 +1,5 @@
 {
-    "id": "e16affa1400347a313d30d4aaa4d9d3b",
+    "id": "b9b6d918833b3116715c9a4fff1c0450",
     "name": "Vinli",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "6d3638943994f0cc5cd1e1a22955413a",
+            "id": "6003bcf2ba14561617b920492b275689",
             "name": "Get All Events for a Device",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/62976d30-b6dc-40f1-8422-ccc367572101\/events",
             "description": "Get all events for a device.",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "ce158a3a2f7dfed95d5a553186eabd61",
+            "id": "6e511b59098a1cb1e010ce3ab2859d4d",
             "name": "List a Device's Vehicles",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/cf217c2d-df3c-41f7-b610-8bc3e11b4b79\/vehicles",
             "description": "List a device's vehicles.",
@@ -68,11 +68,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "b09793198206ba8d5f7982f53a3682e0",
+            "id": "09a90b7e408980d52d317f06b26ac231",
             "name": "Get a Specific Rule",
             "url": "httpsevents.vin.li\/api\/v1\/rules\/b7ad3604-c795-46af-9d5f-71be30ed4143",
             "description": "Get a specific rule.",
@@ -99,11 +99,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "643dce30ea84383994631a1a3d6b63c0",
+            "id": "d0dfa58721dacf154805be3ac0de71b5",
             "name": "Get a List of Collisions for a Device",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/7eac0d62-854f-41c1-a5b2-ba13c460058a\/collisions",
             "description": "Get a list of collisions for a device.",
@@ -130,11 +130,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "9fe9d63c6b6b8481b1edaaa09611e13b",
+            "id": "eee57fab898f10d3829bc8e2499e7e69",
             "name": "Get an Odometer Trigger",
             "url": "httpsevents.vin.li\/api\/v1\/odometer_triggers\/ce8f9a53-906a-4d39-b06a-d466d29a13f1",
             "description": "Get an odometer trigger.",
@@ -161,11 +161,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "cc3715ed803320898233e778ba18009d",
+            "id": "23e75b8e71f070f56abc159b1ab7f992",
             "name": "Delete an Odometer Trigger",
             "url": "httpsevents.vin.li\/api\/v1\/odometer_triggers\/ce8f9a53-906a-4d39-b06a-d466d29a13f1",
             "description": "Delete an odometer trigger.",
@@ -192,11 +192,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "f1dfb54d210df40e40f646dffdfef985",
+            "id": "9b3dd22caec1f49c4da0ee9d80b03e6f",
             "name": "Get a Specific Event",
             "url": "httpsevents.vin.li\/api\/v1\/events\/1caa8fff-c9be-4506-bcb8-38371c25aa14",
             "description": "Get a specific event.",
@@ -223,11 +223,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "c17cc40a943c03598906a032b56ef998",
+            "id": "b94f30ec6b312015a0b79b5fff9b11a1",
             "name": "List all Odometer Triggers for a Vehicle",
             "url": "httpsevents.vin.li\/api\/v1\/vehicles\/9aa35c64-b046-43cc-9cd8-4c353a6d0b30\/odometer_triggers",
             "description": "List all odometer triggers for a vehicle.",
@@ -254,11 +254,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "75a5035e60df39a109035cd85a4b375c",
+            "id": "7b1b68f091dcad19418bf8b073b76966",
             "name": "Create an Odometer Trigger",
             "url": "httpsevents.vin.li\/api\/v1\/vehicles\/9aa35c64-b046-43cc-9cd8-4c353a6d0b30\/odometer_triggers",
             "description": "Create an odometer trigger.",
@@ -299,11 +299,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "b49ade3ef60d5e5675e3eaaaa84ade86",
+            "id": "e92e3b2989d37eaaa1cd86acd894f602",
             "name": "Get Vehicle Details",
             "url": "httpsevents.vin.li\/api\/v1\/vehicles\/aa44769b-3c0a-4662-9bad-25481cf5198f",
             "description": "Get vehicle details.",
@@ -330,11 +330,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "686eee98b13fbe42cf7cf60ce2b73fc8",
+            "id": "99e1d075b3a87b6843545a3cce657912",
             "name": "Telemetry Snapshots",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/62976d30-b6dc-40f1-8422-ccc367572101\/snapshots",
             "description": "Telemetry snapshots.",
@@ -368,11 +368,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "b1ef0c0556654216c8ffa93ef68eca79",
+            "id": "98cb781c53ae19f10f78bb07bdd80c85",
             "name": "Get all Subscriptions for a Device",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/62976d30-b6dc-40f1-8422-ccc367572101\/subscriptions",
             "description": "Get all subscriptions for a device.",
@@ -399,11 +399,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "6782d3bc69c96f2300f8da0aeeda9b66",
+            "id": "f72c5ff584af06130418a1fffefa0ccc",
             "name": "Update a Subscription",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/62976d30-b6dc-40f1-8422-ccc367572101\/subscriptions",
             "description": "Update a subscription.",
@@ -444,11 +444,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "be1e3ec970caea808a25789c9c483fd0",
+            "id": "95e030db78eafee29c5c5ace4fedf3e2",
             "name": "List All of a Vehicle's Trips",
             "url": "httpsevents.vin.li\/api\/v1\/vehicles\/9aa35c64-b046-43cc-9cd8-4c353a6d0b30\/trips",
             "description": "List all of a vehicle's trips.",
@@ -475,11 +475,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "f4b4ec016d36f2334bd814fc272a3839",
+            "id": "b7a45e08c3c2bac96c8e0f1a63ad80b0",
             "name": "List all devices",
             "url": "httpsevents.vin.li\/api\/v1\/devices",
             "description": "List all devices.",
@@ -498,11 +498,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "e058a6649c0854aadea0dcb3e289312a",
+            "id": "d253e443448df1c2cb1e35681f52f7cf",
             "name": "Register a Device",
             "url": "httpsevents.vin.li\/api\/v1\/devices",
             "description": "Register a device.",
@@ -543,11 +543,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "e0157bf381b7fe5097aa73249d3f3a7f",
+            "id": "7b70588fcbdbf47eeca66a13a101d04e",
             "name": "Get a List of Collisions for a Vehicle",
             "url": "httpsevents.vin.li\/api\/v1\/vehicles\/428bc621-16e7-489b-a02a-eb98526d01ef\/collisions",
             "description": "Get a list of collisions for a vehicle.",
@@ -574,11 +574,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "886236ed5b9eaf0e329cb521562c141f",
+            "id": "999dfc22ce94434ba38402e18411597c",
             "name": "Get a specific Collision",
             "url": "httpsevents.vin.li\/api\/v1\/collisions\/e43ff87d-bb58-42da-998e-d7f10a3f7a64",
             "description": "Get a specific collision.",
@@ -605,11 +605,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "84cf706bada3226582abad28a23f2718",
+            "id": "93cae45d20030b180e659915baa6c25c",
             "name": "Get Info about a DTC",
             "url": "httpsevents.vin.li\/api\/v1\/codes",
             "description": "Get info about a dtc.",
@@ -643,11 +643,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "ad5f1656e5b6dfae367eedfffe1b90ee",
+            "id": "1105983f1806fd2e574da1c4d1d38de1",
             "name": "Report Card  for a Trip",
             "url": "httpsevents.vin.li\/api\/v1\/trips\/report_card",
             "description": "Report card  for a trip.",
@@ -688,11 +688,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "2b953d164788e2e1d2c9a07cac7b1b5c",
+            "id": "ecbaea4223b31531ffc8ed7e2bdb0d49",
             "name": "Get Device's Latest Vehicle",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/821374c0-d6d8-11e3-9c1a-0800200c9a66\/vehicles\/_latest",
             "description": "Get device's latest vehicle.",
@@ -719,11 +719,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "0ecad4a64d6cecfc120782ec23f666ce",
+            "id": "be87dc7bf2dff36c69072e6c5fe50fb3",
             "name": "Get a Specific Telemety Message",
             "url": "httpsevents.vin.li\/api\/v1\/messages\/ade8e85c-a1aa-4373-8c6e-e37e87762f29",
             "description": "Get a specific telemety message.",
@@ -750,11 +750,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "c1f6dfe79de70a8f14bf0591c0129bfb",
+            "id": "799837017a12e0e52f96287f2afde480",
             "name": "Locations Request",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/62976d30-b6dc-40f1-8422-ccc367572101\/locations",
             "description": "Locations request.",
@@ -788,11 +788,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "4137729a206dc12350a0b807d8b921da",
+            "id": "6e54c379c4eb49b5fbfab4fc3d19a5cc",
             "name": "Report Cards for a Vehicle",
             "url": "httpsevents.vin.li\/api\/v1\/vehicles\/8480c5b7-6f3e-40b3-a78e-3555617d44b0\/report_cards",
             "description": "Report cards for a vehicle.",
@@ -819,11 +819,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "4ed4e30b69c34d379e5539e0bad983cc",
+            "id": "a97076dba542b83cad9052861ec68e39",
             "name": "Create a Dummy Run",
             "url": "httpsevents.vin.li\/api\/v1\/dummies\/01e668ba-6967-4536-9f72-cc28ff18d7b6\/runs",
             "description": "Create a dummy run.",
@@ -857,11 +857,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "4c11ffb8eab265ce067d0ad58c6fcc3e",
+            "id": "996317a517e3f9c044155923a98834ab",
             "name": "Get Current Run",
             "url": "httpsevents.vin.li\/api\/v1\/dummies\/01e668ba-6967-4536-9f72-cc28ff18d7b6\/runs\/_current",
             "description": "Get current run.",
@@ -888,11 +888,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "56aaac65a386bd98f7bb8a6e81609c54",
+            "id": "1e3f4273353aafe3c175b9ffef9f63da",
             "name": "Delete a Run",
             "url": "httpsevents.vin.li\/api\/v1\/dummies\/01e668ba-6967-4536-9f72-cc28ff18d7b6\/runs\/_current",
             "description": "Delete a run.",
@@ -926,11 +926,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "75063b7df7f4f3cff7d5f233c8484502",
+            "id": "d8d12171f07685878fd1f5d865ad5659",
             "name": "List All Odometer Reports for a Vehicle",
             "url": "httpsevents.vin.li\/api\/v1\/vehicles\/9aa35c64-b046-43cc-9cd8-4c353a6d0b30\/odometers",
             "description": "List all odometer reports for a vehicle.",
@@ -957,11 +957,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "5dcf3c61a728ed9924ff300fa59459b0",
+            "id": "5b00e2af2e72af68498dc3f85a53be29",
             "name": "Create an Odometer Report",
             "url": "httpsevents.vin.li\/api\/v1\/vehicles\/9aa35c64-b046-43cc-9cd8-4c353a6d0b30\/odometers",
             "description": "Create an odometer report.",
@@ -1002,11 +1002,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "3468ca3ce26b15899e8fa8d4afaa9c48",
+            "id": "eeeb32b207ec63da5bffadbda8a1a71d",
             "name": "List Dummy Devices",
             "url": "httpsevents.vin.li\/api\/v1\/dummies",
             "description": "List dummy devices.",
@@ -1033,11 +1033,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "2a05204f3421d10f36a38bdfe2c60512",
+            "id": "cac25bb9f123911ba5840c35af23ea7c",
             "name": "Create a Dummy Device",
             "url": "httpsevents.vin.li\/api\/v1\/dummies",
             "description": "Create a dummy device.",
@@ -1071,11 +1071,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "5544745268871af20b84cbf35f8643f3",
+            "id": "0ae7b06d16bded66adafce3d354383d0",
             "name": "List Dummy Routes",
             "url": "httpsevents.vin.li\/api\/v1\/routes",
             "description": "List dummy routes.",
@@ -1102,11 +1102,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "8c665d879e6491c761e658cd722fc9d1",
+            "id": "18d11f4aa8f06e72dc385fe2f224f4e4",
             "name": "get a single device",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/cf217c2d-df3c-41f7-b610-8bc3e11b4b79",
             "description": "Get a single device.",
@@ -1125,11 +1125,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "1dfbe388d91a26d4f7b5d452bf60abdc",
+            "id": "61358be5b0f8e0556e934e927d51862f",
             "name": "Get a Specific Notification",
             "url": "httpsevents.vin.li\/api\/v1\/notifications\/E4A2E663-D23B-4398-8B91-B826D5477B8F",
             "description": "Get a specific notification.",
@@ -1156,11 +1156,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "7786fd7bc6cfadec2abca8af15fe5378",
+            "id": "5a6c1a58fd399848ea9f576cdc6b51be",
             "name": "Get a Specific Subscription",
             "url": "httpsevents.vin.li\/api\/v1\/subscriptions\/4ffd7abb-6c04-45e9-a09a-a669abf4f885",
             "description": "Get a specific subscription.",
@@ -1194,11 +1194,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "11637215d13df58df3d6967644f71054",
+            "id": "1903fd5d4c918a7bdc5421e50f15effe",
             "name": "Get Notifications for a Subscription",
             "url": "httpsevents.vin.li\/api\/v1\/subscriptions\/78acd627-e2ea-4b34-9599-b94b2f10f2f9\/notifications",
             "description": "Get notifications for a subscription.",
@@ -1225,11 +1225,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "6153d7e04b9b31cbab84691c6b5ce1a3",
+            "id": "b2248c04e9fe9ae85442efc1fcc1e068",
             "name": "Get Notifications for an Event",
             "url": "httpsevents.vin.li\/api\/v1\/events\/d69cc8be-a809-441d-8a70-1bf0a0d48fb3\/notifications",
             "description": "Get notifications for an event.",
@@ -1256,11 +1256,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "613fa2f587140d9927ba6f7cbc42810b",
+            "id": "d0d38422d4c8093dd1bbdc9b03d480ad",
             "name": "Get Details of a Trip",
             "url": "httpsevents.vin.li\/api\/v1\/trips\/89abe0bd-ea2e-44e5-b573-a8a346fdfb54",
             "description": "Get details of a trip.",
@@ -1287,11 +1287,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "4c7f619d007b3c4a23f7d26122ea4a46",
+            "id": "801247b7d2bc798ad3277a864f561514",
             "name": "Lifetime Report Card for a Device",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/7eac0d62-854f-41c1-a5b2-ba13c460058a\/report_cards\/overall",
             "description": "Lifetime report card for a device.",
@@ -1318,11 +1318,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "1410b7c292c055d6081d0a3aa04dbe81",
+            "id": "2903b98da42e51237235797a37e9b204",
             "name": "Get all transactions for this app",
             "url": "httpsevents.vin.li\/api\/v1\/transactions",
             "description": "Get all transactions for this app.",
@@ -1349,11 +1349,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "262ab98c45bac773dc1feaf59875abd2",
+            "id": "174bb721ec21272622a3fb1c23a54fc9",
             "name": "Create a Rule for a Device",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/62976d30-b6dc-40f1-8422-ccc367572101\/rules",
             "description": "Create a rule for a device.",
@@ -1394,11 +1394,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "fa52c7232d625d0dda82305c9d6c2037",
+            "id": "a1ffad48bd0d2b1a2255da0ebee61f38",
             "name": "Get an Odometer",
             "url": "httpsevents.vin.li\/api\/v1\/odometers\/74b7562d-f002-4fc9-8d85-48ec9f917954",
             "description": "Get an odometer.",
@@ -1425,11 +1425,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "0a11d38b22b38194ff573d174f489559",
+            "id": "5783393819670c4a6c566dae5093ded1",
             "name": "Delete an Odometer",
             "url": "httpsevents.vin.li\/api\/v1\/odometers\/74b7562d-f002-4fc9-8d85-48ec9f917954",
             "description": "Delete an odometer.",
@@ -1448,11 +1448,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "8a2113e0d485ce9f633de37e3a18219e",
+            "id": "aa17056603847ca7f1c68b82fe4dad2a",
             "name": "Report Cards for a Device",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/7eac0d62-854f-41c1-a5b2-ba13c460058a\/report_cards",
             "description": "Report cards for a device.",
@@ -1479,11 +1479,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "b1cbda5e3ea942100151cc113643934e",
+            "id": "915430138aa9a77ce6fbf542bf6d9a8e",
             "name": "Get list of  a Vehicles Distances",
             "url": "httpsevents.vin.li\/api\/v1\/vehicles\/9aa35c64-b046-43cc-9cd8-4c353a6d0b30\/distances",
             "description": "Get list of  a vehicles distances.",
@@ -1510,11 +1510,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "73b4e076fafd81b95b12dac9a35e7de7",
+            "id": "d9070da54b99b0ec41589ab5465c523a",
             "name": "Delete a Rule",
             "url": "httpsevents.vin.li\/api\/v1\/rules\/68d489c0-d7a2-11e3-9c1a-0800200c9a66",
             "description": "Delete a rule.",
@@ -1541,11 +1541,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "bb238234e0b4d3f1b40b00c2b71a5090",
+            "id": "9ea67d5ed44a0ee11b44374997df3801",
             "name": "List Telemetry Messages",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/cf217c2d-df3c-41f7-b610-8bc3e11b4b79\/messages",
             "description": "List telemetry messages.",
@@ -1572,11 +1572,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "a2651de61468d5f90328383dd90a753e",
+            "id": "1b32d24b826e153d2cc43e1a896aec74",
             "name": "List all Rules for a Device",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/cf217c2d-df3c-41f7-b610-8bc3e11b4b79\/rules",
             "description": "List all rules for a device.",
@@ -1603,11 +1603,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "97f6091e0cb7d971650ed01d1648fada",
+            "id": "1286b145155a65ac32ee1551fecde9fa",
             "name": "Delete a Subscription",
             "url": "httpsevents.vin.li\/api\/v1\/subscriptions\/5b6a6164-aa14-4e00-9f50-b5c61faeb167",
             "description": "Delete a subscription.",
@@ -1641,11 +1641,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "58cae3534a9c4ed955c6d69e84354967",
+            "id": "91576d399ea05bbf78ca943354bffdb5",
             "name": "Deregister a Device",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/821374c0-d6d8-11e3-9c1a-0800200c9a66",
             "description": "Deregister a device.",
@@ -1664,11 +1664,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "1761d6c599626376f507330c4a8721a4",
+            "id": "5d4a1d810d6e560f914773ae7ae5667a",
             "name": "List all DTCs for a Device",
             "url": "httpsevents.vin.li\/api\/v1\/vehicles\/9aa35c64-b046-43cc-9cd8-4c353a6d0b30\/codes",
             "description": "List all dtcs for a device.",
@@ -1695,11 +1695,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "85a478270a4bee274c9ea83b3fa6ac39",
+            "id": "b8aabb49d1904fc2d6eb0373bc96aa54",
             "name": "Get a Specific Report Card",
             "url": "httpsevents.vin.li\/api\/v1\/report_cards\/549d628c-48dc-412d-8087-44a9f82f187e",
             "description": "Get a specific report card.",
@@ -1726,11 +1726,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         },
         {
-            "id": "cbcfd0e8a68ce0d82bb5398bda195100",
+            "id": "d2bea55d009d697a7bb7888832245b19",
             "name": "List All of a Device's Trips",
             "url": "httpsevents.vin.li\/api\/v1\/devices\/cf217c2d-df3c-41f7-b610-8bc3e11b4b79\/trips",
             "description": "List all of a device's trips.",
@@ -1757,7 +1757,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e16affa1400347a313d30d4aaa4d9d3b",
+            "collectionId": "b9b6d918833b3116715c9a4fff1c0450",
             "rawModeData": ""
         }
     ]
